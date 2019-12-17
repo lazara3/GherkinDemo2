@@ -6,6 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin={"com.hpe.alm.octane.OctaneGherkinFormatter:gherkin-results\\\\Radi_OctaneGherkinResults.xml"},
-        features="src/test/resources/dan")
+        features="src/test/resources/manual_runner")
 public class RadiTest {
 }
